@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/chuck-dubya/tflint-google-organization-iam-binding/rules"
+	"github.com/chuck-dubya/tflint-rule-extensions/rules"
 	"github.com/terraform-linters/tflint-plugin-sdk/plugin"
 	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
 )

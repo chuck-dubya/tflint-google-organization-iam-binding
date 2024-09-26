@@ -1,8 +1,11 @@
-module github.com/chuck-dubya/tflint-google-organization-iam-binding
+module github.com/chuck-dubya/tflint-custom-rules
 
 go 1.22.3
 
-require github.com/terraform-linters/tflint-plugin-sdk v0.21.0
+require (
+	github.com/chuck-dubya/tflint-google-organization-iam-binding v0.1.0
+	github.com/terraform-linters/tflint-plugin-sdk v0.21.0
+)
 
 require (
 	github.com/agext/levenshtein v1.2.1 // indirect
